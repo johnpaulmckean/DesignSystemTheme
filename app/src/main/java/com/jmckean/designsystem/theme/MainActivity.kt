@@ -49,6 +49,8 @@ class MainActivity : AppCompatActivity() {
             .startActivities()
 
         finish()
+
+        overridePendingTransition(0, 0)
     }
 
     private fun getActualTheme(): Int {

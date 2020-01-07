@@ -3,10 +3,7 @@
 
   <style name="Component.Theme.Dark" parent="@style/Theme.MaterialComponents">
     <item name="android:windowLightStatusBar">false</item>
-    <item name="android:windowLightNavigationBar" tools:ignore="NewApi">false</item>
-
-
-    <!-- SHARED -->
+    <item name="android:windowLightNavigationBar">false</item>
 
     <item name="alphaEmphasisHigh">@dimen/alpha_emphasis_high</item>
     <item name="alphaEmphasisMedium">@dimen/alpha_emphasis_medium</item>

@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources xmlns:tools="http://schemas.android.com/tools">
 
-  <style name="Component.Theme.LightDark" parent="@style/Theme.MaterialComponents.Light.DarkActionBar">
+  <style name="Component.Theme.LightDark" parent="@style/Component.Theme.Base.LightDark"/>
+
+  <style name="Component.Theme.Base.LightDark" parent="@style/Theme.MaterialComponents.Light.DarkActionBar">
     <item name="android:windowLightStatusBar">false</item>
-    <item name="android:windowLightNavigationBar" tools:ignore="NewApi">false</item>
-
-
-    <!-- SHARED -->
 
     <item name="alphaEmphasisHigh">@dimen/alpha_emphasis_high</item>
     <item name="alphaEmphasisMedium">@dimen/alpha_emphasis_medium</item>
     <item name="alphaEmphasisDisabled">@dimen/alpha_emphasis_disabled</item>
 
     <item name="android:statusBarColor">?colorPrimary</item>
-    <item name="android:navigationBarColor">?android:colorBackground</item>
     <item name="android:navigationBarDividerColor" tools:ignore="NewApi">?colorControlHighlight</item>
 
     <!--Remap legacy AppCompat attributes to MaterialComponent attributes-->
