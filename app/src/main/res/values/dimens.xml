@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!-- High emphasis of 87% for type. -->
+  <item name="material_emphasis_high_type" format="float" type="dimen">0.87</item>
+  <!-- Medium emphasis of 60% is the same for type and icon. -->
+  <item name="material_emphasis_medium" format="float" type="dimen">0.6</item>
+  <!-- Disabled emphasis of 38% is the same for type and icon. -->
+  <item name="material_emphasis_disabled" format="float" type="dimen">0.38</item>
+
+
+
+
+  <!--Emphasis modifiers for "on" colors-->
+  <dimen name="alpha_emphasis_high">@dimen/material_emphasis_high_type</dimen>
+  <dimen name="alpha_emphasis_medium">@dimen/material_emphasis_medium</dimen>
+  <dimen name="alpha_emphasis_disabled">@dimen/material_emphasis_disabled</dimen>
+
+</resources>

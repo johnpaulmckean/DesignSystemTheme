@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <!--Color (universal)-->
+  <color name="light_gray">#565656</color>
+  <color name="faint_gray">#D3D3D3</color>
+
+  <!--Material uses an organized approach to applying color by providing a set of attributes -->
+  <!--which define the color of generalized UI elements such as backgrounds, surfaces, type -->
+  <!--and icons. Using these attributes throughout your app makes it easy to change a single -->
+  <!--color, or the entire theme, and have those changes cascade through the interface.-->
+
+  <!--Color is customized by overriding Material Components color attributes with custom -->
+  <!--color values. In this project, your theme’s color attributes are already overridden -->
+  <!--with default values defined in this file, color.xml.  Change any of the values in -->
+  <!--this file to see changes applied across all elements of your app.-->
+
+  <!--BIG GREEN-->
+  <!--LIGHT/DARK COLOR THEME-->
+  <color name="color_primary_big_green">#53A318</color>
+  <color name="color_primary_variant_big_green">#4b9216</color>
+  <color name="color_secondary_big_green">#53A318</color>
+  <color name="color_secondary_variant_big_green">#4b9216</color>
+
+  <color name="color_background_big_green">#ffffff</color>
+  <color name="color_surface_big_green">#53A318</color>
+  <color name="color_error_big_green">#ff2552</color>
+
+  <color name="color_on_primary_big_green">#ffffff</color>
+  <color name="color_on_secondary_big_green">#ffffff</color>
+  <color name="color_on_background_big_green">#000000</color>
+  <color name="color_on_surface_big_green">#000000</color>
+  <color name="color_on_error_big_green">#ffffff</color>
+
+
+  <!--ZENITH-->
+  <!--LIGHT COLOR THEME-->
+  <color name="color_primary_zenith">#ffffff</color>
+  <color name="color_primary_variant_zenith">#ffffff</color>
+  <color name="color_secondary_zenith">#0081e3</color>
+  <color name="color_secondary_variant_zenith">#2675AB</color>
+
+  <color name="color_background_zenith">#ffffff</color>
+  <color name="color_surface_zenith">#ffffff</color>
+  <color name="color_error_zenith">#80fc0048</color>
+
+  <color name="color_on_primary_zenith">#000000</color>
+  <color name="color_on_secondary_zenith">#ffffff</color>
+  <color name="color_on_background_zenith">#000000</color>
+  <color name="color_on_surface_zenith">#000000</color>
+  <color name="color_on_error_zenith">#ffffff</color>
+
+
+  <!--ZENITH-->
+  <!--Dark COLOR THEME-->
+  <color name="color_primary_zenith_dark">#323232</color>
+  <color name="color_primary_variant_zenith_dark">#292929</color>
+  <color name="color_secondary_zenith_dark">#0081e3</color>
+  <color name="color_secondary_variant_zenith_dark">#2675AB</color>
+
+  <color name="color_background_zenith_dark">#000000</color>
+  <color name="color_surface_zenith_dark">#292929</color>
+  <!--<color name="color_surface_zenith_dark">#848484</color>-->
+  <color name="color_error_zenith_dark">#80fc0048</color>
+
+  <color name="color_on_primary_zenith_dark">#ffffff</color>
+  <color name="color_on_secondary_zenith_dark">#ffffff</color>
+  <color name="color_on_background_zenith_dark">#000000</color>
+  <color name="color_on_surface_zenith_dark">#000000</color>
+  <color name="color_on_error_zenith_dark">#ffffff</color>
+
+</resources>

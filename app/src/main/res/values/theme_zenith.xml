@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="Component.Theme.Light.Zenith">
+    <item name="colorPrimary">@color/color_primary_zenith</item>
+    <item name="colorPrimaryVariant">@color/color_primary_variant_zenith</item>
+    <item name="colorSecondary">@color/color_secondary_zenith</item>
+    <item name="colorSecondaryVariant">@color/color_secondary_variant_zenith</item>
+
+    <item name="colorSurface">@color/color_surface_zenith</item>
+    <item name="colorError">@color/color_error_zenith</item>
+
+    <item name="colorOnPrimary">@color/color_on_primary_zenith</item>
+    <item name="colorOnSecondary">@color/color_on_secondary_zenith</item>
+    <item name="colorOnBackground">@color/color_on_background_zenith</item>
+    <item name="colorOnSurface">@color/color_on_surface_zenith</item>
+    <item name="colorOnError">@color/color_on_error_zenith</item>
+
+    <!-- Components -->
+    <item name="actionBarTheme">@style/Widget.MaterialComponents.ActionBar.PrimarySurface</item>
+    <item name="materialButtonStyle">@style/Component.Widget.Button.Zenith</item>
+  </style>
+
+  <style name="Component.Widget.Button.Zenith">
+    <item name="backgroundTint">?attr/colorSecondary</item>
+    <item name="android:textColor">?attr/colorOnSecondary</item>
+  </style>
+
+</resources>

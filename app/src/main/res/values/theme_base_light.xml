@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+  <style name="Component.Theme.Light" parent="@style/Theme.MaterialComponents.Light">
+    <item name="android:windowLightStatusBar">true</item>
+    <item name="android:windowLightNavigationBar" tools:ignore="NewApi">true</item>
+
+
+    <!-- SHARED -->
+
+    <item name="alphaEmphasisHigh">@dimen/alpha_emphasis_high</item>
+    <item name="alphaEmphasisMedium">@dimen/alpha_emphasis_medium</item>
+    <item name="alphaEmphasisDisabled">@dimen/alpha_emphasis_disabled</item>
+
+    <item name="android:statusBarColor">?colorSurface</item>
+    <item name="android:navigationBarColor">?android:colorBackground</item>
+    <item name="android:navigationBarDividerColor" tools:ignore="NewApi">?colorControlHighlight</item>
+
+    <!--Remap legacy AppCompat attributes to MaterialComponent attributes-->
+    <item name="colorPrimaryDark">?colorPrimaryVariant</item>
+    <item name="colorAccent">?colorSecondary</item>
+
+    <!--Material type attributes-->
+    <item name="textAppearanceHeadline1">@style/Component.TextAppearance.Headline1</item>
+    <item name="textAppearanceHeadline2">@style/Component.TextAppearance.Headline2</item>
+    <item name="textAppearanceHeadline3">@style/Component.TextAppearance.Headline3</item>
+    <item name="textAppearanceHeadline4">@style/Component.TextAppearance.Headline4</item>
+    <item name="textAppearanceHeadline5">@style/Component.TextAppearance.Headline5</item>
+    <item name="textAppearanceHeadline6">@style/Component.TextAppearance.Headline6</item>
+    <item name="textAppearanceSubtitle1">@style/Component.TextAppearance.Subtitle1</item>
+    <item name="textAppearanceSubtitle2">@style/Component.TextAppearance.Subtitle2</item>
+    <item name="textAppearanceBody1">@style/Component.TextAppearance.Body1</item>
+    <item name="textAppearanceBody2">@style/Component.TextAppearance.Body2</item>
+    <item name="textAppearanceButton">@style/Component.TextAppearance.Button</item>
+    <item name="textAppearanceCaption">@style/Component.TextAppearance.Caption</item>
+    <item name="textAppearanceOverline">@style/Component.TextAppearance.Overline</item>
+
+    <!--Component styles-->
+    <item name="materialAlertDialogTheme">@style/Component.Dialog.Alert</item>
+    <item name="materialButtonStyle">@style/Component.Widget.Button</item>
+    <item name="bottomSheetDialogTheme">@style/ThemeOverlay.MyTheme.BottomSheetDialog</item>
+    <item name="navigationViewStyle">@style/Widget.MyTheme.NavigationView</item>
+    <item name="radioButtonStyle">@style/Component.Widget.RadioButton</item>
+    <item name="switchStyle">@style/Component.Widget.Switch</item>
+    <item name="android:progressBarStyle">@style/Base.Widget.AppCompat.ProgressBar.Horizontal</item>
+    <item name="checkboxStyle">@style/Component.Widget.CheckBox</item>
+    <item name="tabStyle">@style/Component.Widget.TabLayout.Light</item>
+  </style>
+
+  <style name="Component.Widget.TabLayout.Light">
+    <item name="tabIndicatorColor">?attr/colorAccent</item>
+  </style>
+
+</resources>

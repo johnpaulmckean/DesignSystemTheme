@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+  <ScrollView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/testLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="30dp">
+
+      <RadioGroup
+          android:id="@+id/themeRadioGroup"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/themeRadioBigGreen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Big Green" />
+
+        <RadioButton
+            android:id="@+id/themeRadioZenith"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zenith" />
+
+        <RadioButton
+            android:id="@+id/themeRadioZenithDark"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Zenith (Dark Mode)" />
+      </RadioGroup>
+
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          style="?attr/textAppearanceHeadline6"
+          android:layout_marginTop="30dp"
+          android:text="Components"/>
+
+      <Button
+          android:id="@+id/showDialogButton"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:text="Show Alert Dialog"/>
+
+      <com.google.android.material.switchmaterial.SwitchMaterial
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:text="Switch: "/>
+
+      <com.google.android.material.chip.ChipGroup
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp">
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Component.Widget.Chip.Action"
+            android:text="Action"/>
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Component.Widget.Chip.Choice"
+            android:text="Choice"/>
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Component.Widget.Chip.Entry"
+            android:text="Entry"/>
+
+        <com.google.android.material.chip.Chip
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Component.Widget.Chip.Filter"
+            android:text="Filter"/>
+
+      </com.google.android.material.chip.ChipGroup>
+
+      <SeekBar
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"/>
+
+      <ProgressBar
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:indeterminate="true"/>
+
+      <com.google.android.material.checkbox.MaterialCheckBox
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:text="Check Box"/>
+
+      <RatingBar
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:numStars="5"
+          android:stepSize="1"/>
+
+      <com.google.android.material.tabs.TabLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="First" />
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Second"/>
+
+        <com.google.android.material.tabs.TabItem
+            android:id="@+id/tab_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Psych!" />
+
+      </com.google.android.material.tabs.TabLayout>
+
+      <androidx.cardview.widget.CardView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:foreground="?android:attr/selectableItemBackground"
+          android:clickable="true"
+          android:focusable="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="20dp">
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              style="?attr/textAppearanceBody1"
+              android:text="This is a Card View!"/>
+
+          <TextView
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center"
+              style="@style/Component.TextAppearance.Body3"
+              android:text="I just wanna note that you are now using an app which will enable you to make better apps... it's like Inception."/>
+
+        </LinearLayout>
+
+      </androidx.cardview.widget.CardView>
+
+      <com.google.android.material.textfield.TextInputEditText
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:hint="Type here..."/>
+
+    </LinearLayout>
+
+  </ScrollView>
+
+</LinearLayout>

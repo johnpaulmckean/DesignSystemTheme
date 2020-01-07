@@ -1,0 +1,85 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+  <!--Components-->
+  <style name="Component.Widget.Button" parent="Widget.MaterialComponents.Button">
+    <item name="android:textAllCaps">false</item>
+  </style>
+
+  <style name="Component.Widget.TextButton" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+    <item name="android:textAllCaps">false</item>
+  </style>
+
+  <style name="Component.Widget.Switch" parent="@style/Widget.MaterialComponents.CompoundButton.Switch">
+    <item name="android:textAppearance">@style/Component.TextAppearance.Switch</item>
+  </style>
+
+  <style name="Component.Widget.RadioButton" parent="Widget.MaterialComponents.CompoundButton.RadioButton">
+    <item name="android:textAppearance">@style/Component.TextAppearance.RadioButton</item>
+  </style>
+
+  <style name="Component.Widget.CheckBox" parent="Widget.MaterialComponents.CompoundButton.CheckBox">
+    <item name="android:textAppearance">@style/Component.TextAppearance.CheckBox</item>
+  </style>
+
+  <style name="Component.Widget.TabLayout" parent="Widget.MaterialComponents.TabLayout.Colored">
+    <item name="tabTextAppearance">@style/Component.TextAppearance.TabItem</item>
+  </style>
+
+  <style name="Component.Dialog.Alert" parent="@style/ThemeOverlay.MaterialComponents.Dialog.Alert">
+    <item name="colorPrimary">?attr/colorSecondary</item>
+  </style>
+
+  <style name="Component.Widget.Chip" parent="@style/Base.Widget.MaterialComponents.Chip">
+    <item name="chipSurfaceColor">?attr/colorSurface</item>
+    <item name="chipBackgroundColor">@color/color_secondary_state_list</item>
+    <item name="chipStrokeColor">?attr/colorSecondary</item>
+    <item name="chipStrokeWidth">1dp</item>
+    <item name="rippleColor">?attr/colorSecondary</item>
+
+    <item name="android:textColor">@color/color_on_secondary_state_list</item>
+  </style>
+
+  <style name="Component.Widget.Chip.Action">
+    <item name="closeIconVisible">false</item>
+  </style>
+
+  <style name="Component.Widget.Chip.Choice">
+    <item name="android:checkable">true</item>
+
+    <item name="chipIconVisible">false</item>
+    <item name="checkedIconVisible">false</item>
+    <item name="closeIconVisible">false</item>
+  </style>
+
+  <style name="Component.Widget.Chip.Entry">
+    <item name="android:checkable">true</item>
+  </style>
+
+  <style name="Component.Widget.Chip.Filter">
+    <item name="android:checkable">true</item>
+
+    <item name="chipIconVisible">false</item>
+    <item name="closeIconVisible">false</item>
+
+    <item name="checkedIcon">@drawable/ic_check_white</item>
+  </style>
+
+  <!--Bottom Sheets-->
+  <style name="ThemeOverlay.MyTheme.BottomSheetDialog" parent="ThemeOverlay.MaterialComponents.Dialog">
+    <item name="android:windowIsFloating">false</item>
+    <item name="android:windowBackground">@android:color/transparent</item>=
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="bottomSheetStyle">@style/Widget.MyTheme.BottomSheet.Modal</item>
+    <item name="android:navigationBarColor">?colorSurface</item>
+    <item name="android:navigationBarDividerColor" tools:ignore="NewApi">@android:color/transparent</item>
+  </style>
+  <style name="Widget.MyTheme.BottomSheet.Modal" parent="Widget.MaterialComponents.BottomSheet.Modal">
+    <item name="shapeAppearanceOverlay">?shapeAppearanceLargeComponent</item>
+  </style>
+
+  <!--Navigation Drawer-->
+  <style name="Widget.MyTheme.NavigationView" parent="Widget.MaterialComponents.NavigationView">
+    <item name="itemTextAppearance">?textAppearanceBody2</item>
+  </style>
+
+</resources>
