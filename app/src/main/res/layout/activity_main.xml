@@ -38,13 +38,15 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Zenith (Dark Mode)" />
+
       </RadioGroup>
 
       <TextView
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          style="?attr/textAppearanceHeadline6"
+          style="?attr/textAppearanceHeadline5"
           android:layout_marginTop="30dp"
+          android:layout_marginBottom="10dp"
           android:text="Components"/>
 
       <Button
