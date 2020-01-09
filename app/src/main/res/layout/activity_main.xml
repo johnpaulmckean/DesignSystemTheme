@@ -49,10 +49,27 @@
 
       <Button
           android:id="@+id/showDialogButton"
+          style="?attr/materialButtonStyle"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_margin="10dp"
           android:text="Show Alert Dialog"/>
+
+      <Button
+          android:id="@+id/exampleOutlinedButton"
+          style="?attr/materialButtonOutlinedStyle"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:text="Outlined Button"/>
+
+      <Button
+          android:id="@+id/exampleTextButton"
+          style="?attr/borderlessButtonStyle"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+          android:text="Text Button"/>
 
       <com.google.android.material.switchmaterial.SwitchMaterial
           android:layout_width="wrap_content"

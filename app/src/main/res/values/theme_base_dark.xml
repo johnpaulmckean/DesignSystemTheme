@@ -35,6 +35,8 @@
     <!--Component styles-->
     <item name="materialAlertDialogTheme">@style/Component.Dialog.Alert</item>
     <item name="materialButtonStyle">@style/Component.Widget.Button</item>
+    <item name="borderlessButtonStyle">@style/Component.Widget.Button.Text</item>
+    <item name="materialButtonOutlinedStyle">@style/Component.Widget.Button.Outlined</item>
     <item name="bottomSheetDialogTheme">@style/ThemeOverlay.MyTheme.BottomSheetDialog</item>
     <item name="navigationViewStyle">@style/Widget.MyTheme.NavigationView</item>
     <item name="radioButtonStyle">@style/Component.Widget.RadioButton</item>
