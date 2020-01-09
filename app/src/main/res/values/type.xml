@@ -71,6 +71,12 @@
 
   <style name="Component.TextAppearance.Button" parent="TextAppearance.MaterialComponents.Button">
     <!--Your custom type style here-->
+    <item name="android:textAllCaps">false</item>
+  </style>
+
+  <style name="Component.TextAppearance.Button.Text">
+    <!--Your custom type style here-->
+    <item name="android:textSize">16sp</item>
   </style>
 
   <style name="Component.TextAppearance.Caption" parent="TextAppearance.MaterialComponents.Caption">
