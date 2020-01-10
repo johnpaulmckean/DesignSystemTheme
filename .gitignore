@@ -87,3 +87,6 @@ lint/tmp/
 # lint/reports/
 .idea/runConfigurations.xml
 .idea/.name
+.DS_Store
+app/.DS_Store
+app/src/main/res/.DS_Store
