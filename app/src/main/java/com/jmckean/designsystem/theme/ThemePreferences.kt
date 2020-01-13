@@ -24,6 +24,7 @@ class ThemePreferences(private val context: Context) {
     enum class Themes {
         BIG_GREEN,
         ZENITH,
-        ZENITH_DARK
+        ZENITH_DARK,
+        PRETTY_IN_PINK
     }
 }

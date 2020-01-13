@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+  <style name="Component.Theme.Light.PrettyInPink">
+    <item name="colorPrimary">@color/color_primary_pip</item>
+    <item name="colorPrimaryVariant">@color/color_primary_variant_pip</item>
+    <item name="colorSecondary">@color/color_secondary_pip</item>
+    <item name="colorSecondaryVariant">@color/color_secondary_variant_pip</item>
+
+    <item name="colorSurface">@color/color_surface_pip</item>
+    <item name="colorError">@color/color_error_pip</item>
+
+    <item name="colorOnPrimary">@color/color_on_primary_pip</item>
+    <item name="colorOnSecondary">@color/color_on_secondary_pip</item>
+    <item name="colorOnBackground">@color/color_on_background_pip</item>
+    <item name="colorOnSurface">@color/color_on_surface_pip</item>
+    <item name="colorOnError">@color/color_on_error_pip</item>
+  </style>
+
+</resources>
