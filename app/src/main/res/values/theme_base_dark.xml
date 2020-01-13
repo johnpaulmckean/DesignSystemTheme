@@ -33,12 +33,13 @@
     <item name="textAppearanceOverline">@style/Component.TextAppearance.Overline</item>
 
     <!--Component styles-->
+    <item name="actionBarTheme">@style/Widget.MaterialComponents.ActionBar.Surface</item>
     <item name="materialAlertDialogTheme">@style/Component.Dialog.Alert</item>
     <item name="materialButtonStyle">@style/Component.Widget.Button</item>
     <item name="borderlessButtonStyle">@style/Component.Widget.Button.Text</item>
     <item name="materialButtonOutlinedStyle">@style/Component.Widget.Button.Outlined</item>
-    <item name="bottomSheetDialogTheme">@style/ThemeOverlay.MyTheme.BottomSheetDialog</item>
-    <item name="navigationViewStyle">@style/Widget.MyTheme.NavigationView</item>
+    <item name="bottomSheetDialogTheme">@style/ThemeOverlay.Components.BottomSheetDialog</item>
+    <item name="navigationViewStyle">@style/Components.Widget.NavigationView</item>
     <item name="radioButtonStyle">@style/Component.Widget.RadioButton</item>
     <item name="switchStyle">@style/Component.Widget.Switch</item>
     <item name="android:progressBarStyle">@style/Base.Widget.AppCompat.ProgressBar.Horizontal</item>

@@ -58,12 +58,12 @@
           android:text="Show Alert Dialog"/>
 
       <Button
-          android:id="@+id/exampleOutlinedButton"
+          android:id="@+id/showSnackbarButton"
           style="?attr/materialButtonOutlinedStyle"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
           android:layout_margin="10dp"
-          android:text="Outlined Button"/>
+          android:text="Show Snackbar"/>
 
       <Button
           android:id="@+id/exampleTextButton"
@@ -190,11 +190,18 @@
 
       </androidx.cardview.widget.CardView>
 
-      <com.google.android.material.textfield.TextInputEditText
+      <com.google.android.material.textfield.TextInputLayout
+          style="@style/Widget.Shrine.TextInputLayout"
           android:layout_width="match_parent"
           android:layout_height="wrap_content"
-          android:layout_margin="10dp"
-          android:hint="Type here..."/>
+          android:layout_margin="10dp">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Type here..." />
+
+      </com.google.android.material.textfield.TextInputLayout>
 
     </LinearLayout>
 

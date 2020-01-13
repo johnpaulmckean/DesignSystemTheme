@@ -5,6 +5,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.core.app.TaskStackBuilder
 import com.google.android.material.dialog.MaterialAlertDialogBuilder
+import com.google.android.material.snackbar.Snackbar
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -37,6 +38,15 @@ class MainActivity : AppCompatActivity() {
                 .setNegativeButton("Nevermind", null)
                 .show()
         }
+
+        showSnackbarButton.setOnClickListener {
+            Snackbar.make(
+                it,
+                "Read this message!",
+                Snackbar.LENGTH_SHORT
+            ).setAction("Read") { }
+                .show()
+        }
     }
 
     private fun changeTheme(theme: ThemesEnum) {
@@ -54,7 +64,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun getActualTheme(): Int {
-        return when(themePreferences.currentTheme) {
+        return when (themePreferences.currentTheme) {
             ThemesEnum.BIG_GREEN -> R.style.Component_Theme_LightDark_BigGreen
             ThemesEnum.ZENITH -> R.style.Component_Theme_Light_Zenith
             ThemesEnum.ZENITH_DARK -> R.style.Component_Theme_Dark_Zenith

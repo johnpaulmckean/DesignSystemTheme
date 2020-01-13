@@ -65,8 +65,8 @@
 
   <color name="color_on_primary_zenith_dark">#ffffff</color>
   <color name="color_on_secondary_zenith_dark">#ffffff</color>
-  <color name="color_on_background_zenith_dark">#000000</color>
-  <color name="color_on_surface_zenith_dark">#000000</color>
+  <color name="color_on_background_zenith_dark">#ffffff</color>
+  <color name="color_on_surface_zenith_dark">#ffffff</color>
   <color name="color_on_error_zenith_dark">#ffffff</color>
 
 </resources>

@@ -17,28 +17,11 @@
     <item name="colorOnError">@color/color_on_error_zenith_dark</item>
 
     <!-- Components -->
-    <item name="actionBarTheme">@style/Widget.MaterialComponents.ActionBar.Surface</item>
     <item name="materialButtonStyle">@style/Component.Widget.Button.ZenithDark</item>
-    <item name="radioButtonStyle">@style/Component.Widget.RadioButton.ZenithDark</item>
-    <item name="switchStyle">@style/Component.Widget.Switch.ZenithDark</item>
-    <item name="checkboxStyle">@style/Component.Widget.CheckBox.ZenithDark</item>
   </style>
 
   <style name="Component.Widget.Button.ZenithDark">
     <item name="backgroundTint">?attr/colorSecondary</item>
-    <item name="android:textColor">?attr/colorOnSecondary</item>
-  </style>
-
-  <style name="Component.Widget.RadioButton.ZenithDark">
-    <item name="useMaterialThemeColors">false</item>
-  </style>
-
-  <style name="Component.Widget.Switch.ZenithDark">
-    <item name="useMaterialThemeColors">false</item>
-  </style>
-
-  <style name="Component.Widget.CheckBox.ZenithDark">
-    <item name="useMaterialThemeColors">false</item>
   </style>
 
 </resources>

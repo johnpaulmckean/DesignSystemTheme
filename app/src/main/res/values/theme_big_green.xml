@@ -15,9 +15,6 @@
     <item name="colorOnBackground">@color/color_on_background_big_green</item>
     <item name="colorOnSurface">@color/color_on_surface_big_green</item>
     <item name="colorOnError">@color/color_on_error_big_green</item>
-
-    <!-- Components -->
-    <item name="actionBarTheme">@style/ThemeOverlay.MaterialComponents.Dark.ActionBar</item>
   </style>
 
 </resources>

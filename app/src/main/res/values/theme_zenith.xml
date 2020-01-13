@@ -17,7 +17,6 @@
     <item name="colorOnError">@color/color_on_error_zenith</item>
 
     <!-- Components -->
-    <item name="actionBarTheme">@style/Widget.MaterialComponents.ActionBar.PrimarySurface</item>
     <item name="materialButtonStyle">@style/Component.Widget.Button.Zenith</item>
   </style>
 
