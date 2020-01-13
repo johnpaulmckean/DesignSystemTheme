@@ -52,7 +52,7 @@
 
 
   <!--ZENITH-->
-  <!--Dark COLOR THEME-->
+  <!--DARK COLOR THEME-->
   <color name="color_primary_zenith_dark">#323232</color>
   <color name="color_primary_variant_zenith_dark">#292929</color>
   <color name="color_secondary_zenith_dark">#0081e3</color>
@@ -60,7 +60,6 @@
 
   <color name="color_background_zenith_dark">#000000</color>
   <color name="color_surface_zenith_dark">#292929</color>
-  <!--<color name="color_surface_zenith_dark">#848484</color>-->
   <color name="color_error_zenith_dark">#80fc0048</color>
 
   <color name="color_on_primary_zenith_dark">#ffffff</color>
