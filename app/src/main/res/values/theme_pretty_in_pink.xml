@@ -15,6 +15,9 @@
     <item name="colorOnBackground">@color/color_on_background_pip</item>
     <item name="colorOnSurface">@color/color_on_surface_pip</item>
     <item name="colorOnError">@color/color_on_error_pip</item>
+
+    <!--Component styles-->
+    <item name="shapeAppearanceSmallComponent">@style/Component.ShapeAppearance.SmallComponent</item>
   </style>
 
 </resources>
