@@ -35,7 +35,7 @@
     <!--Component styles-->
     <item name="actionBarTheme">@style/Widget.MaterialComponents.ActionBar.PrimarySurface</item>
     <item name="materialAlertDialogTheme">@style/Component.Dialog.Alert</item>
-    <item name="materialButtonStyle">@style/Component.Widget.Button</item>
+    <item name="materialButtonStyle">@style/Component.Widget.Button.Light</item>
     <item name="borderlessButtonStyle">@style/Component.Widget.Button.Text</item>
     <item name="materialButtonOutlinedStyle">@style/Component.Widget.Button.Outlined</item>
     <item name="bottomSheetDialogTheme">@style/ThemeOverlay.Components.BottomSheetDialog</item>
@@ -45,6 +45,11 @@
     <item name="android:progressBarStyle">@style/Base.Widget.AppCompat.ProgressBar.Horizontal</item>
     <item name="checkboxStyle">@style/Component.Widget.CheckBox</item>
     <item name="tabStyle">@style/Component.Widget.TabLayout.Light</item>
+  </style>
+
+  <style name="Component.Widget.Button.Light">
+    <item name="backgroundTint">?attr/colorSecondary</item>
+    <item name="android:textColor">?attr/colorOnSecondary</item>
   </style>
 
   <style name="Component.Widget.TabLayout.Light">
