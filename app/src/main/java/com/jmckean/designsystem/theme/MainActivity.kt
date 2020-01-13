@@ -17,15 +17,15 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        themeRadioBigGreen.isChecked = themePreferences.currentTheme == ThemesEnum.BIG_GREEN
-        themeRadioZenith.isChecked = themePreferences.currentTheme == ThemesEnum.ZENITH
-        themeRadioZenithDark.isChecked = themePreferences.currentTheme == ThemesEnum.ZENITH_DARK
+        themeRadioBigGreen.isChecked = themePreferences.currentTheme == ThemePreferences.Themes.BIG_GREEN
+        themeRadioZenith.isChecked = themePreferences.currentTheme == ThemePreferences.Themes.ZENITH
+        themeRadioZenithDark.isChecked = themePreferences.currentTheme == ThemePreferences.Themes.ZENITH_DARK
 
         themeRadioGroup.setOnCheckedChangeListener { _, i ->
             when (i) {
-                R.id.themeRadioBigGreen -> changeTheme(ThemesEnum.BIG_GREEN)
-                R.id.themeRadioZenith -> changeTheme(ThemesEnum.ZENITH)
-                R.id.themeRadioZenithDark -> changeTheme(ThemesEnum.ZENITH_DARK)
+                R.id.themeRadioBigGreen -> changeTheme(ThemePreferences.Themes.BIG_GREEN)
+                R.id.themeRadioZenith -> changeTheme(ThemePreferences.Themes.ZENITH)
+                R.id.themeRadioZenithDark -> changeTheme(ThemePreferences.Themes.ZENITH_DARK)
             }
         }
 
@@ -49,7 +49,7 @@ class MainActivity : AppCompatActivity() {
         }
     }
 
-    private fun changeTheme(theme: ThemesEnum) {
+    private fun changeTheme(theme: ThemePreferences.Themes) {
         themePreferences.currentTheme = theme
 
         overridePendingTransition(0, 0)
@@ -65,9 +65,9 @@ class MainActivity : AppCompatActivity() {
 
     private fun getActualTheme(): Int {
         return when (themePreferences.currentTheme) {
-            ThemesEnum.BIG_GREEN -> R.style.Component_Theme_LightDark_BigGreen
-            ThemesEnum.ZENITH -> R.style.Component_Theme_Light_Zenith
-            ThemesEnum.ZENITH_DARK -> R.style.Component_Theme_Dark_Zenith
+            ThemePreferences.Themes.BIG_GREEN -> R.style.Component_Theme_LightDark_BigGreen
+            ThemePreferences.Themes.ZENITH -> R.style.Component_Theme_Light_Zenith
+            ThemePreferences.Themes.ZENITH_DARK -> R.style.Component_Theme_Dark_Zenith
         }
     }
 }
