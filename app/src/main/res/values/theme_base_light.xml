@@ -56,9 +56,4 @@
     <item name="tabIndicatorColor">?attr/colorAccent</item>
   </style>
 
-  <style name="Component.Widget.Button.Light">
-    <item name="backgroundTint">?attr/colorSecondary</item>
-    <item name="android:textColor">?attr/colorOnSecondary</item>
-  </style>
-
 </resources>
