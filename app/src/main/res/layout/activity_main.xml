@@ -39,6 +39,12 @@
             android:layout_height="wrap_content"
             android:text="Zenith (Dark Mode)" />
 
+        <RadioButton
+            android:id="@+id/themeRadioPrettyInPink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pretty In Pink" />
+
       </RadioGroup>
 
       <TextView

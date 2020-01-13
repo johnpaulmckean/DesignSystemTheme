@@ -68,4 +68,22 @@
   <color name="color_on_surface_zenith_dark">#ffffff</color>
   <color name="color_on_error_zenith_dark">#ffffff</color>
 
+
+  <!--PRETTY IN PINK-->
+  <!--LIGHT COLOR THEME-->
+  <color name="color_primary_pip">#ffffff</color>
+  <color name="color_primary_variant_pip">#ffffff</color>
+  <color name="color_secondary_pip">#FF4081</color>
+  <color name="color_secondary_variant_pip">#b22c5a</color>
+
+  <color name="color_background_pip">#ffffff</color>
+  <color name="color_surface_pip">#ffffff</color>
+  <color name="color_error_pip">#80fc0048</color>
+
+  <color name="color_on_primary_pip">#000000</color>
+  <color name="color_on_secondary_pip">#ffffff</color>
+  <color name="color_on_background_pip">#000000</color>
+  <color name="color_on_surface_pip">#000000</color>
+  <color name="color_on_error_pip">#ffffff</color>
+
 </resources>

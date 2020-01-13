@@ -20,12 +20,14 @@ class MainActivity : AppCompatActivity() {
         themeRadioBigGreen.isChecked = themePreferences.currentTheme == ThemePreferences.Themes.BIG_GREEN
         themeRadioZenith.isChecked = themePreferences.currentTheme == ThemePreferences.Themes.ZENITH
         themeRadioZenithDark.isChecked = themePreferences.currentTheme == ThemePreferences.Themes.ZENITH_DARK
+        themeRadioPrettyInPink.isChecked = themePreferences.currentTheme == ThemePreferences.Themes.PRETTY_IN_PINK
 
         themeRadioGroup.setOnCheckedChangeListener { _, i ->
             when (i) {
                 R.id.themeRadioBigGreen -> changeTheme(ThemePreferences.Themes.BIG_GREEN)
                 R.id.themeRadioZenith -> changeTheme(ThemePreferences.Themes.ZENITH)
                 R.id.themeRadioZenithDark -> changeTheme(ThemePreferences.Themes.ZENITH_DARK)
+                R.id.themeRadioPrettyInPink -> changeTheme(ThemePreferences.Themes.PRETTY_IN_PINK)
             }
         }
 
@@ -68,6 +70,7 @@ class MainActivity : AppCompatActivity() {
             ThemePreferences.Themes.BIG_GREEN -> R.style.Component_Theme_LightDark_BigGreen
             ThemePreferences.Themes.ZENITH -> R.style.Component_Theme_Light_Zenith
             ThemePreferences.Themes.ZENITH_DARK -> R.style.Component_Theme_Dark_Zenith
+            ThemePreferences.Themes.PRETTY_IN_PINK -> R.style.Component_Theme_Light_PrettyInPink
         }
     }
 }
